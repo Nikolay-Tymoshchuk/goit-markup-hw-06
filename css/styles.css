@@ -240,6 +240,7 @@ p {
   color: #ffffff;
   background-color: var(--accent-color);
 
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -848,6 +849,7 @@ p {
   background-color: #f5f4fa;
   color: var(--title-text-color);
 
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
