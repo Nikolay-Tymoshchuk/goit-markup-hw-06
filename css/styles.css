@@ -622,6 +622,7 @@ p {
 .modal textarea:active {
   outline: none;
 }
+
 /* ====================================Main form start here==========================================*/
 
 .modal-title {
@@ -679,6 +680,7 @@ p {
   transform: translateY(-50%);
 
   cursor: pointer;
+  fill: #000;
 }
 
 .form-input-shell {
@@ -690,6 +692,10 @@ p {
 .form-input:focus {
   border-color: var(--accent-color);
   cursor: initial;
+}
+
+.form-input:focus ~ .input-icon use {
+  fill: var(--accent-color);
 }
 
 .form-input.textarea-set {
