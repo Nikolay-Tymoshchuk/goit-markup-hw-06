@@ -949,7 +949,7 @@ p {
 
   background-color: rgba(33, 150, 243, 0.9);
   pointer-events: none;
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform var(--primary-animation-duration) var(--primary-animation-tf);
 }
 
