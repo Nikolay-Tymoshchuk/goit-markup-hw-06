@@ -547,7 +547,7 @@ p {
   align-items: center;
 }
 
-.input-icon {
+.secondary-form-shell .input-icon {
   display: inline-block;
   margin-left: 10px;
 }
@@ -675,7 +675,7 @@ p {
 .form-input-shell .input-icon {
   position: absolute;
   top: 50%;
-  left: 18px;
+  left: 12px;
   transform: translateY(-50%);
 
   cursor: pointer;
